@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "588964959809",
+    "project_id": "fbazkript",
+    "storage_bucket": "fbazkript.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588964959809:android:02f668f71cc0d6ecca18c0",
+        "android_client_info": {
+          "package_name": "com.muradshafiyev.cryptotool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588964959809-jhnr4ngd1vn2reqhs5frj3olak4frv24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkhu5JGCzL6iSjMqzdpvKQLOQi9a5xkRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588964959809-jhnr4ngd1vn2reqhs5frj3olak4frv24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.muradshafiyev.cryptotool">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/azkript_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/azkript_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="com.muradshafiyev.cryptotool.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.muradshafiyev.cryptotool.UserProfile"
+            android:theme="@style/AppTheme.NoActionBar"/> <!-- android:theme="@style/Theme.CryptoTool"> -->
+        <activity
+            android:name="com.muradshafiyev.cryptotool.LoginActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="com.muradshafiyev.cryptotool.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.muradshafiyev.cryptotool.MessageReversal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.muradshafiyev.cryptotool.Base64"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.muradshafiyev.cryptotool.AtbashCipher"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.muradshafiyev.cryptotool.MD5_hash"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.muradshafiyev.cryptotool.CaesarCipher"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.muradshafiyev.cryptotool.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
